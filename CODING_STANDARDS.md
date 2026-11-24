@@ -24,8 +24,6 @@ Most rules are phrased so that a reviewer can check them against a diff.
 - Lock package versions with `renv` (`renv::snapshot()` after adding a
   package). **Package:** not applicable; dependencies live in `DESCRIPTION`.
 - A script that uses randomness calls `set.seed()` once, at the top.
-- Pipelines are numbered scripts (`01_load.R`, `02_clean.R`, ...) that run in
-  order from a fresh session. Raw data is read-only: no code writes to it.
 
 ---
 
