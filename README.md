@@ -22,6 +22,10 @@ Run these commands in your terminal, not at the Claude Code prompt:
 claude plugin install mattpocock-skills@claude-plugins-official
 ```
 
+### Install my preferred dictation tool
+
+[Handy](https://github.com/cjpais/Handy) transcribes what I say into text, so I can interact with my agents without typing and save time. After installing, set **Shortcut Behaviour** to **Toggle** in the settings.
+
 ## For every new project
 
 ### Add `CLAUDE.md` and the coding standards
