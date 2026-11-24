@@ -19,7 +19,6 @@ Matt Pocock's skills are my preferred skill set for Agent Engineering.
 Run these commands in your terminal, not at the Claude Code prompt:
 
 ```bash
-claude plugin marketplace add mattpocock/skills
 claude plugin install mattpocock-skills@claude-plugins-official
 ```
 
@@ -32,6 +31,8 @@ Copy these two files into the root of the project:
 - `CLAUDE.md`: a template for the project description, repository layout, and any project conventions that override the standards.
 - `CODING_STANDARDS.md`: the R coding standards, loaded automatically through the `@CODING_STANDARDS.md` reference in `CLAUDE.md`.
 
+`CODING_STANDARDS.md` is also what Matt Pocock's `/code-review` skill checks code against: its Standards review always includes a file with exactly this name. Keep the file name as it is so the review finds it. Every Standards finding cites the rule it breaks, so rules that can be checked against a diff produce the most useful reviews. See [The /code-review Skill](https://www.aihero.dev/skills-code-review) for how the review works.
+
 You don't have to fill in `CLAUDE.md` by hand. Start Claude Code in the project and ask it to fill in the template with you, for example:
 
 ```text
@@ -40,7 +41,7 @@ Fill in CLAUDE.md with me: look at the repo, then ask me what you can't find out
 
 ### Configure project workflows for Matt Pocock's skills
 
-From the project, run this command at the Claude Code prompt. It can configure project workflows such as issue tracking and triage labels:
+From the project, run this command at the Claude Code prompt. It will configure project workflows such as issue tracking and triage labels:
 
 ```text
 /setup-matt-pocock-skill
