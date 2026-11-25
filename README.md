@@ -24,7 +24,8 @@ claude plugin install mattpocock-skills@claude-plugins-official
 
 ### Install my preferred dictation tool
 
-[Handy](https://github.com/cjpais/Handy) transcribes what I say into text, so I can interact with my agents without typing and save time. After installing, set **Shortcut Behaviour** to **Toggle** in the settings.
+[Handy](https://github.com/cjpais/Handy) transcribes speech into text, so I can interact with my agents without typing. I prefer `Middle Mouse Button` or `Right CTRL` as the shortcut because both work through my remote desktop connection. I set **Shortcut Behaviour** to **Toggle** rather than **Hold**, so I can speak for several minutes without keeping the button pressed.
+
 
 ## For every new project
 
